@@ -24,6 +24,9 @@ TARGET_SCREEN_WIDTH := 1080
 CUSTOM_BUILD_TYPE := OFFICIAL
 CUSTOM_MAINTAINER := RoshanGP4A
 
+TARGET_USES_PICO_GAPPS := true
+TARGET_INCLUDE_EXTRA_APPS := false
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sunfish-user 13 TQ3A.230805.001.S1 10786265 release-keys" \
     BuildFingerprint=google/sunfish/sunfish:13/TQ3A.230805.001.S1/10786265:user/release-keys \
