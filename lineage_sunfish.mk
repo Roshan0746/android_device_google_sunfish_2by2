@@ -21,6 +21,13 @@ PRODUCT_NAME := lineage_sunfish
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+CUSTOM_BUILD_TYPE := OFFICIAL
+CUSTOM_MAINTAINER := Roshan_Sagvekar
+
+WITH_GMS := true
+TARGET_INCLUDE_EXTRA_APPS := false
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sunfish-user 13 TQ3A.230805.001.S1 10786265 release-keys" \
     BuildFingerprint=google/sunfish/sunfish:13/TQ3A.230805.001.S1/10786265:user/release-keys \
